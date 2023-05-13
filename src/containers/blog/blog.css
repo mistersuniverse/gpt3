@@ -1,0 +1,27 @@
+.gpt3__blog-grid {
+    display: flex;
+    gap: 2rem;
+}
+
+.gpt3__blog-others {
+    flex: 1.25;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.gpt3__blog h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+
+}
+
+.gpt3__blog-hightlight {
+    flex:1 ;
+}
